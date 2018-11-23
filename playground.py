@@ -1,3 +1,2 @@
-s = '()()(())[]'
-s = s.replace('()','')
-print(s)
+l = [1]
+print(l[1])

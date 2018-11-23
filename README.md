@@ -1,5 +1,6 @@
 # Leetcode
 不好好刷题就找不到工作
+Submission detail 可以看到不同Run time 的代码sample!!!
 
 ####1 two sum:
 
@@ -24,3 +25,7 @@ For Python:
 `list.insert(index,item)`    
 `top_element = stack.pop() if stack else '#'`  
 This code do not need to check if stack is empty !!!  
+
+####21. Merge Two Sorted Lists
+!!! Need to remember the input sometimes is not friendly.
+Use recursive to solve some shit
