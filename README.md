@@ -21,4 +21,6 @@ string slice
 For Python:  
 `list.append` is from the last  
 `list.pop` is pop from the first  
-`list.insert(index,item)`  
+`list.insert(index,item)`    
+`top_element = stack.pop() if stack else '#'`  
+This code do not need to check if stack is empty !!!  
