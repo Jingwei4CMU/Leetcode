@@ -1,2 +1,2 @@
 a = '123456'
-print(a[0])
+print(len(a))
