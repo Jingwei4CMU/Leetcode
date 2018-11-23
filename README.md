@@ -9,3 +9,6 @@ Look for index in dict, not the content
 
 # 07 Reverse Integer
 `string` can be used as `list`
+
+# 13 Roman to Integer
+`list[<start>:<stop>:<step>]`
