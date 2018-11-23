@@ -1,7 +1,10 @@
 # Leetcode
-不好好刷题就找不到工作
-Submission detail 可以看到不同Run time 的代码sample!!!
+不好好刷题就找不到工作  
+!!!Submission detail 可以看到不同Run time 的代码sample!!!  
+An **in-place** algorithm is an algorithm which transforms input using no auxiliary data structure.  
 
+
+##11.22.2018 Thursday Thanksgiving Holiday  
 ####1 two sum:
 
 `if i not in dict`
@@ -26,6 +29,7 @@ For Python:
 `top_element = stack.pop() if stack else '#'`  
 This code do not need to check if stack is empty !!!  
 
+##11.23.2018 Friday
 ####21. Merge Two Sorted Lists
-!!! Need to remember the input sometimes is not friendly.
+!!! Need to remember the input sometimes is not friendly.!!!
 Use recursive to solve some shit
