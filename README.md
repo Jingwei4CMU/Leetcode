@@ -6,3 +6,6 @@
 `if i not in dict`
 
 Look for index in dict, not the content 
+
+# 07 Reverse Integer
+`string` can be used as `list`
