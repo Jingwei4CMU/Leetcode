@@ -5,17 +5,14 @@ class Solution:
         :type target: int
         :rtype: List[int]
         """
-        adic = {}
-        index = 0
-        for num in nums:
-            adic[num] = index
-            index = index + 1
-        for i in range(target+1):
-            try:
-                return [adic[i],adic[target-i]]
-            except:
-                pass
+        dict = {}
+        for i in range(len(nums)):
+            if target-nums[i] not in dict:
+                dict[nums[i]] = i
+            else:
+                return [dict[target-nums[i]],i]
 
 
-print(Solution().twoSum([1,2,3],5))
+
+print(Solution().twoSum([-3,4,3],0))
 
