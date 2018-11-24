@@ -33,3 +33,7 @@ This code do not need to check if stack is empty !!!
 ####21. Merge Two Sorted Lists
 !!! Need to remember the input sometimes is not friendly.!!!
 Use recursive to solve some shit
+
+####27. Remove Element  
+Two pointers, one is fast, the other is slow  
+
