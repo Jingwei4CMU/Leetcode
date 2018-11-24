@@ -1,8 +1,6 @@
-a = 1
-b = 2
-c = 2
-def atest(a,b,c):
-    if c == a or b:
-        return a or b
+class ob:
+    a = 1
 
-print(atest(a,b,c))
+
+a = ob()
+b = {a:1}

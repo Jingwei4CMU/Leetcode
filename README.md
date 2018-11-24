@@ -40,4 +40,12 @@ Two pointers, one is fast, the other is slow
 ####35. Search Insert Position
 Binary search:  
 if the middle point has been checked, the pointer can be 
-set lower or higher than the middle.
+set lower or higher than the middle.  
+
+####141. Linked List Cycle  
+Object can be used as key of dictionary  
+Approach 2: Two Pointers  
+Imagine two runners if there is cycle.  
+Good point is the space complicity can be O(1)  
+
+
