@@ -66,5 +66,9 @@ Get the min and max in sequence in one loop.
 ####283. Move Zeroes  
 `list.append(list.pop())`  
 
+####88. Merge Sorted Array  
+`sorted(list)`  
+`sorted(x, reverse = True) `
+
 
 
