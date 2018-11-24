@@ -37,3 +37,7 @@ Use recursive to solve some shit
 ####27. Remove Element  
 Two pointers, one is fast, the other is slow  
 
+####35. Search Insert Position
+Binary search:  
+if the middle point has been checked, the pointer can be 
+set lower or higher than the middle.
