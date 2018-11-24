@@ -5,6 +5,7 @@ class Solution:
         :type n: int
         :rtype: int
         """
+        # Runtime: 32 ms, faster than 100.00% of Python3 online submissions for Climbing Stairs.
         try:
             return Solution.adic[n]
         except:

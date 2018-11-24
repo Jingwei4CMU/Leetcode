@@ -76,6 +76,8 @@ Get the min and max in sequence in one loop.
 there can be empty strings in teh list.  
 ####67. Add Binary  
 `int('string',2)` convert to binary int  
+####70. Climbing Stairs  
+Climb stairs problem is a Fibonacci problem
 
 
 
