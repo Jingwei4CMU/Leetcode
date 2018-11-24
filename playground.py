@@ -1,3 +1,3 @@
-s = '123'
-s = s.join('abc')
-print(s)
+l = [1,2]
+l2 = [3,3]
+print(l.index(0))

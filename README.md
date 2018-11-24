@@ -60,5 +60,6 @@ Get the min and max in sequence in one loop.
 `i in Jset` is boolean, and for i in S is condition of i
 
 ####482. License Key Formatting  
-`string.upper()`
+`string.upper()`  
+`join` is used to list, do not use string as input
 
