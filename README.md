@@ -73,7 +73,10 @@ Get the min and max in sequence in one loop.
 `dic.keys()` to get the keys in a dictionary.  
 `len(dic.keys())` get the number of keys in a dictionary  
 `str.split('@')` will return a list, all items are with out `'@'` , and
-there can be empty strings in teh list.
+there can be empty strings in teh list.  
+####67. Add Binary  
+`int('string',2)` convert to binary int  
+
 
 
 
