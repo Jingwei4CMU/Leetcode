@@ -9,3 +9,8 @@ l2 = None
 print(Neat_code().neat_test(l1, l2))
 
 
+# This two can be used to convert ASCII code to character
+# A-65 a-97
+ord('h')
+chr(66)
+

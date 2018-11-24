@@ -51,6 +51,14 @@ Good point is the space complicity can be O(1)
 ####53. Maximum Subarray  
 Need to do again  
 
+####121. Best Time to Buy and Sell Stock  
+Get the min and max in sequence in one loop.  
 
+####771. Jewels and Stones  
+`Jset = set(J)`  
+`return sum([i in Jset for i in S])`
+`i in Jset` is boolean, and for i in S is condition of i
 
+####482. License Key Formatting  
+`string.upper()`
 
