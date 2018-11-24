@@ -61,5 +61,10 @@ Get the min and max in sequence in one loop.
 
 ####482. License Key Formatting  
 `string.upper()`  
-`join` is used to list, do not use string as input
+`join` is used to list, do not use string as input  
+
+####283. Move Zeroes  
+`list.append(list.pop())`  
+
+
 
