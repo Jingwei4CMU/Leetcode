@@ -1,2 +1,2 @@
-for i in range(5,0,-1):
-    print(i)
+a='123'
+print(a.index('2'))
