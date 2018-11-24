@@ -68,7 +68,13 @@ Get the min and max in sequence in one loop.
 
 ####88. Merge Sorted Array  
 `sorted(list)`  
-`sorted(x, reverse = True) `
+`sorted(x, reverse = True) `  
+####929. Unique Email Addresses  
+`dic.keys()` to get the keys in a dictionary.  
+`len(dic.keys())` get the number of keys in a dictionary  
+`str.split('@')` will return a list, all items are with out `'@'` , and
+there can be empty strings in teh list.
+
 
 
 
