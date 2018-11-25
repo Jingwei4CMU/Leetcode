@@ -77,7 +77,10 @@ there can be empty strings in teh list.
 ####67. Add Binary  
 `int('string',2)` convert to binary int  
 ####70. Climbing Stairs  
-Climb stairs problem is a Fibonacci problem
+Climb stairs problem is a Fibonacci problem  
+####204. Count Primes
+Find the prime number, m*m.  
+Need to do again.
 
 
 
