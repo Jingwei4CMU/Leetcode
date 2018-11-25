@@ -1,2 +1,3 @@
-a = [1,2,3]
-print(a[:-1])
+a = 'asd55r2'
+b = sorted(a)
+print(b)
