@@ -12,6 +12,8 @@ class Solution:
         :rtype: int
         """
         # Runtime: 56 ms, faster than 80.77% of Python3 online submissions for Diameter of Binary Tree.
+        if root == None:
+            return 0
         self.cal_max_depth(root)
         node_list = [root]
         longest_path = 0
@@ -30,15 +32,19 @@ class Solution:
             node_list.pop(0)
         return longest_path
 
-
     def cal_max_depth(self, root):
         if root.left == None and root.right == None:
             root.val = 1
             return root.val
-        rightval = self.cal_max_depth(root.right) if root.right != None else 0
-        leftval = self.cal_max_depth(root.left) if root.left != None else 0
-        root.val = max(rightval + 1, leftval + 1)
-        return root.val
+        if root.left == None and root.right != None:
+            root.val = self.cal_max_depth(root.right) + 1
+            return root.val
+        if root.left != None and root.right == None:
+            root.val = self.cal_max_depth(root.left) + 1
+            return root.val
+        if root.left != None and root.right != None:
+            root.val = max(self.cal_max_depth(root.right) + 1, self.cal_max_depth(root.left) + 1)
+            return root.val
 
 
 
