@@ -102,6 +102,10 @@ This dict will have a very useful function
 `dict = OrderedDict()`  
 `dict.move_to_end(key)`will remember the order of keys
 `dict.popitem(last=False/True)` will pop the last or first item
+####138. Copy List with Random Pointer
+copy objects, should not change the original
+one. If we can not change the attributes of 
+object, we can just double the objects.  
 
 
 
