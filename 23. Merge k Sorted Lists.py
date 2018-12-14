@@ -46,33 +46,70 @@
 #         self.val = x
 #         self.next = None
 
+# class Solution(object):
+#     def mergeKLists(self, lists):
+#         """
+#         :type lists: List[ListNode]
+#         :rtype: ListNode
+#         """
+#         # Runtime: 80 ms, faster than 58.09% of Python online submissions for Merge k Sorted Lists.
+#         deleted = 0
+#         for i in range(len(lists)):
+#             if lists[i - deleted] == None:
+#                 lists.pop(i - deleted)
+#                 deleted += 1
+#         if len(lists) == 1:
+#             return lists[0]
+#         elif len(lists) == 0:
+#             return None
+#         to_return = []
+#         for one_list in lists:
+#             while one_list:
+#                 to_return.append(one_list.val)
+#                 one_list = one_list.next
+#         to_return.sort()
+#
+#         head = dumnhead = ListNode(None)
+#         for one in to_return:
+#             head.next = ListNode(one)
+#             head = head.next
+#         return dumnhead.next
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+from heapq import *
 class Solution(object):
     def mergeKLists(self, lists):
         """
         :type lists: List[ListNode]
         :rtype: ListNode
         """
-        # Runtime: 80 ms, faster than 58.09% of Python online submissions for Merge k Sorted Lists.
-        deleted = 0
-        for i in range(len(lists)):
-            if lists[i - deleted] == None:
-                lists.pop(i - deleted)
-                deleted += 1
-        if len(lists) == 1:
-            return lists[0]
-        elif len(lists) == 0:
-            return None
-        to_return = []
-        for one_list in lists:
-            while one_list:
-                to_return.append(one_list.val)
-                one_list = one_list.next
-        to_return.sort()
-
-        head = dumnhead = ListNode(None)
-        for one in to_return:
-            head.next = ListNode(one)
-            head = head.next
-        return dumnhead.next
-
+        # Runtime: 60 ms, faster than 95.69% of Python online submissions for Merge k Sorted Lists.
+        heap = []
+        iid = 0
+        for onelist in lists:
+            if onelist:
+                heappush(heap,(onelist.val, iid, onelist))
+                iid += 1
+        if len(heap) == 1:
+            return heap[0][2]
+        head = ListNode(None)
+        dumbhead = head
+        while heap:
+            dumbhead.next = heappop(heap)[2]
+            dumbhead = dumbhead.next
+            if dumbhead.next:
+                heappush(heap,(dumbhead.next.val,iid,dumbhead.next))
+                iid += 1
+        return head.next
 

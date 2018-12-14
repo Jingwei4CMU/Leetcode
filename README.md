@@ -106,6 +106,9 @@ This dict will have a very useful function
 copy objects, should not change the original
 one. If we can not change the attributes of 
 object, we can just double the objects.  
+####23. Merge k Sorted Lists
+`heapq` is really a good tool.
+It can be used to sort several lists.
 
 
 
