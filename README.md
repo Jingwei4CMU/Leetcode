@@ -81,6 +81,28 @@ Climb stairs problem is a Fibonacci problem
 ####204. Count Primes
 Find the prime number, m*m.  
 Need to do again.
+####811. Subdomain Visit Count
+`from collections import defaultdict`
+`counts = defaultdict(int)`
+This dict will not throw error if input wrong key,
+and the initial value will be zero.
+We can directly add number to it.
+`counts['d'] += 1`  
+`counts.items()` will return both key and value  
+`count, domain = cpdomain.split(" ")` keep in mind  
+####716. Max Stack
+`from heapq import *`  
+`heappush(heap,item)`  
+`heappop(heap)`  
+`temp = set()`  
+`temp.add(sth)`  
+####146. LRU Cache
+`from collections import OrderedDict`
+This dict will have a very useful function 
+`dict = OrderedDict()`  
+`dict.move_to_end(key)`will remember the order of keys
+`dict.popitem(last=False/True)` will pop the last or first item
+
 
 
 

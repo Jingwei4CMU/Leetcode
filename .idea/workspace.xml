@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3220fd9-3f13-4f42-a035-d2b33f08e1e7" name="Default Changelist" comment="2test">
-      <change afterPath="$PROJECT_DIR$/811. Subdomain Visit Count.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/146. LRU Cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/716. Max Stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/811. Subdomain Visit Count.py" beforeDir="false" afterPath="$PROJECT_DIR$/811. Subdomain Visit Count.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +30,7 @@
     <SUITE FILE_PATH="coverage/Leetcode$0__Note_Learn_Some_Shit.coverage" NAME="0. Note Learn Some Shit Coverage Results" MODIFIED="1542998663460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$283__Move_Zeroes.coverage" NAME="283. Move Zeroes Coverage Results" MODIFIED="1543087294780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$543__Diameter_of_Binary_Tree.coverage" NAME="543. Diameter of Binary Tree Coverage Results" MODIFIED="1543111755785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$716__Max_Stack.coverage" NAME="716. Max Stack Coverage Results" MODIFIED="1544753026237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1542672773052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$26__Remove_Duplicates_from_Sorted_Array.coverage" NAME="26. Remove Duplicates from Sorted Array Coverage Results" MODIFIED="1543000899517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$482__License_Key_Formatting.coverage" NAME="482. License Key Formatting Coverage Results" MODIFIED="1543085857897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,15 +41,16 @@
     <SUITE FILE_PATH="coverage/Leetcode$9__Palindrome_Number.coverage" NAME="9. Palindrome Number Coverage Results" MODIFIED="1542939659553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$13__Roman_to_Integer.coverage" NAME="13. Roman to Integer Coverage Results" MODIFIED="1542943251605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$53__Maximum_Subarray.coverage" NAME="53. Maximum Subarray Coverage Results" MODIFIED="1543037631861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$146__LRU_Cache.coverage" NAME="146. LRU Cache Coverage Results" MODIFIED="1544758062849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$67__Add_Binary.coverage" NAME="67. Add Binary Coverage Results" MODIFIED="1543098039577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$844__Backspace_String_Compare.coverage" NAME="844. Backspace String Compare Coverage Results" MODIFIED="1543115970590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$258__Add_Digits.coverage" NAME="258. Add Digits Coverage Results" MODIFIED="1543113942664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$01_two_sum.coverage" NAME="01_two_sum Coverage Results" MODIFIED="1542936818189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$21__Merge_Two_Sorted_Lists.coverage" NAME="21. Merge Two Sorted Lists Coverage Results" MODIFIED="1542998834475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$204__Count_Primes.coverage" NAME="204. Count Primes Coverage Results" MODIFIED="1543105030077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Leetcode$playground.coverage" NAME="playground Coverage Results" MODIFIED="1543114617889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$playground.coverage" NAME="playground Coverage Results" MODIFIED="1544757734366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$819__Most_Common_Word.coverage" NAME="819. Most Common Word Coverage Results" MODIFIED="1543093746246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Leetcode$811__Subdomain_Visit_Count.coverage" NAME="811. Subdomain Visit Count Coverage Results" MODIFIED="1544717796435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Leetcode$811__Subdomain_Visit_Count.coverage" NAME="811. Subdomain Visit Count Coverage Results" MODIFIED="1544718817612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode$28__Implement_strStr__.coverage" NAME="28. Implement strStr() Coverage Results" MODIFIED="1543027610618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -61,28 +67,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="3" />
-          <entry key="py" value="56" />
+          <entry key="py" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="3" />
-          <entry key="Python" value="56" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="12" />
-          <entry key="md" value="1943" />
-          <entry key="py" value="17465" />
+          <entry key="md" value="2377" />
+          <entry key="py" value="22044" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1943" />
+          <entry key="Markdown" value="2377" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="17465" />
+          <entry key="Python" value="22044" />
         </counts>
       </usages-collector>
     </session>
@@ -93,8 +99,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1064">
-                <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+              <first_editor relative-caret-position="322">
+                <caret line="99" column="36" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,17 +110,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="114">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/811. Subdomain Visit Count.py">
+        <entry file="file://$PROJECT_DIR$/146. LRU Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="311">
+              <caret line="37" selection-start-line="37" selection-end-line="65" selection-end-column="47" />
+              <folding>
+                <marker date="1544758045000" expanded="true" signature="51:56" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,6 +136,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>len</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -167,14 +181,16 @@
         <option value="$PROJECT_DIR$/70. Climbing Stairs.py" />
         <option value="$PROJECT_DIR$/203. Remove Linked List Elements.py" />
         <option value="$PROJECT_DIR$/204. Count Primes.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/242. Valid Anagram.py" />
         <option value="$PROJECT_DIR$/543. Diameter of Binary Tree.py" />
         <option value="$PROJECT_DIR$/349. Intersection of Two Arrays.py" />
         <option value="$PROJECT_DIR$/258. Add Digits.py" />
-        <option value="$PROJECT_DIR$/playground.py" />
         <option value="$PROJECT_DIR$/844. Backspace String Compare.py" />
         <option value="$PROJECT_DIR$/811. Subdomain Visit Count.py" />
+        <option value="$PROJECT_DIR$/716. Max Stack.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/playground.py" />
+        <option value="$PROJECT_DIR$/146. LRU Cache.py" />
       </list>
     </option>
   </component>
@@ -244,8 +260,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.811. Subdomain Visit Count">
-    <configuration name="258. Add Digits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.146. LRU Cache">
+    <configuration name="146. LRU Cache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,7 +274,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/258. Add Digits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/146. LRU Cache.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +283,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="349. Intersection of Two Arrays" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="716. Max Stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +296,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/349. Intersection of Two Arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/716. Max Stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,18 +373,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.playground" />
-      <item itemvalue="Python.349. Intersection of Two Arrays" />
-      <item itemvalue="Python.258. Add Digits" />
       <item itemvalue="Python.844. Backspace String Compare" />
       <item itemvalue="Python.811. Subdomain Visit Count" />
+      <item itemvalue="Python.716. Max Stack" />
+      <item itemvalue="Python.146. LRU Cache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.146. LRU Cache" />
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.716. Max Stack" />
         <item itemvalue="Python.811. Subdomain Visit Count" />
         <item itemvalue="Python.844. Backspace String Compare" />
-        <item itemvalue="Python.playground" />
-        <item itemvalue="Python.258. Add Digits" />
-        <item itemvalue="Python.349. Intersection of Two Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +410,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31232876" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25205478" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -688,27 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1064">
-            <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/844. Backspace String Compare.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playground.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -721,8 +720,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/811. Subdomain Visit Count.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="166">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/716. Max Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+          <folding>
+            <marker date="1544753080000" expanded="true" signature="51:56" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="99" column="36" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/146. LRU Cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="37" selection-start-line="37" selection-end-line="65" selection-end-column="47" />
+          <folding>
+            <marker date="1544758045000" expanded="true" signature="51:56" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
