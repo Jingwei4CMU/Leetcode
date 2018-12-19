@@ -121,8 +121,19 @@ dynamic programming!
 get the formula  
 ####122. Best Time to Buy and Sell Stock II  
 Done  
-#### 415. Add Strings
-
+####339. Nested List Weight Sum  
+Done  
+####415. Add Strings  
+Done  
+####438. Find All Anagrams in a String
+Anagram  
+`ord('a')`  
+`chr(97)`  
+convert a key to a list and compare with others.
+####125. Valid Palindrome
+`import string`,`string.ascii_lowercase`,`string.punctuation`.  
+punctuation does not include space.
+`string.ascii_letters`
 
 
 
