@@ -3,6 +3,10 @@
 !!!Submission detail 可以看到不同Run time 的代码sample!!!  
 An **in-place** algorithm is an algorithm which transforms input using no auxiliary data structure.  
 
+###Holiday plan
+Easy 113 1219-1223 25/D
+Medium 100 1224-1228 20/D
+amazon 100 1229-0103 15/D
 
 ##11.22.2018 Thursday Thanksgiving Holiday  
 ####1 two sum:
@@ -110,6 +114,11 @@ object, we can just double the objects.
 `heapq` is really a good tool.
 It can be used to sort several lists.
 
+## 2018.12.19  
+Today to do easy * 18  
+####198. House Robber  
+dynamic programming!  
+get the formula  
 
 
 
