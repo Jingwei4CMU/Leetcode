@@ -134,6 +134,13 @@ convert a key to a list and compare with others.
 `import string`,`string.ascii_lowercase`,`string.punctuation`.  
 punctuation does not include space.
 `string.ascii_letters`
+####709. To Lower Case
+Done
+####234. Palindrome Linked List
+Done
+####136. Single Number  
+`^` XOR  
+
 
 
 

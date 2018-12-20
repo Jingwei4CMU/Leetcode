@@ -1,3 +1,5 @@
-import string
-for i in string.whitespace:
-    print('123',i,'4')
+a = 15
+a = a>>1
+
+
+print(a)
