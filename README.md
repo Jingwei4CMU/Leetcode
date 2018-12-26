@@ -140,6 +140,30 @@ Done
 Done
 ####136. Single Number  
 `^` XOR  
+####170. Two Sum III - Data structure design
+defaultdict will remember key even if just look it up  
+####190. Reverse Bits  
+`zfill`   `str.zfill(32)` fill the left side with zeros  
+`bin(n)` convert n to binary
+####235. Lowest Common Ancestor of a Binary Search Tree
+binary search tree the root is between left and right 
+####867. Transpose Matrix  
+`[0]*n` will create n 0s with the same address, once on is changed, the others will change.
+`B = [1,2,3]` and `A = B` will make A the same address with B.  
+we can use deepcopy to create a new list with different address  
+`import copy` and then `A = copy.deepcopy(B)`  
+####532. K-diff Pairs in an Array  
+`set()&set()` will return the intersection of two sets.  
+`from collections import Counters` then `a = Counters(d)` will return a counter
+just like a dictionary.  
+`Counters.items`, `Counters.values`   
+####246. Strobogrammatic Number
+`import operator`  `map(operator.add,a,a[::-1])` then `set`
+set can be compared by `<=`
+
+
+
+
 
 
 
