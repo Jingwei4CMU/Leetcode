@@ -160,8 +160,18 @@ just like a dictionary.
 ####246. Strobogrammatic Number
 `import operator`  `map(operator.add,a,a[::-1])` then `set`
 set can be compared by `<=`
-
-
+####56. Merge Intervals  
+`sth = sorted(sth, key=lambda i:i.start)` here, sth can be the list of list, or 
+list of objects.
+####322. Coin Change  
+`float('inf')` and `float('-inf')` will not change with adding or subtracting  
+####236. Lowest Common Ancestor of a Binary Tree
+for tree, sometime we can cut the useless tree nodes, but before doing that, we need
+some operations.
+####264. Ugly Number II
+`ugly = sorted(2**a * 3**b * 5**c for a in range(32) for b in range(20) for c in range(14))`
+####698. Partition to K Equal Sum Subsets
+`any()` return True if at least one if True.
 
 
 
