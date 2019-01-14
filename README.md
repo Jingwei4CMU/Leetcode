@@ -172,6 +172,14 @@ some operations.
 `ugly = sorted(2**a * 3**b * 5**c for a in range(32) for b in range(20) for c in range(14))`
 ####698. Partition to K Equal Sum Subsets
 `any()` return True if at least one if True.
+####621. Task Scheduler
+`from collections import Counter`
+`a = Counter(b)`
+`a.items`,`a.most_common(n)`
+####151. Reverse Words in a String
+`s.split()` can split multiple spaces.
+####402. Remove K Digits
+`s.lstrip()`
 
 
 
